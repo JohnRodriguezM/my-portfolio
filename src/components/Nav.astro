@@ -11,13 +11,17 @@ import { TwitterIcon } from "./svg/TwitterIcon";
   <a class="link" href="/projects/"> Portfolio</a>
   <a class="link" href="/about/"> About</a>
   <div class="socials">
-    <a class="social" href="https://twitter.com/me">
+    <a class="social" target="_blank" href="https://twitter.com/Johnn_73/">
       <TwitterIcon className="socialIcon" />
     </a>
-    <a class="social" href="">
+    <a
+      class="social"
+      target="_blank"
+      href="https://www.linkedin.com/in/johnjrm/"
+    >
       <LinkedinIcon className="socialIcon" />
     </a>
-    <a class="social" href="https://github.com/me">
+    <a class="social" target="_blank" href="https://github.com/JohnRodriguezM">
       <GitHubIcon className="socialIcon" />
     </a>
   </div>
@@ -58,6 +62,12 @@ import { TwitterIcon } from "./svg/TwitterIcon";
     letter-spacing: -0.125rem;
     border: 3px solid currentColor;
     border-radius: 50%;
+  }
+
+  .monogram:hover,
+  .monogram:focus {
+    color: var(--c-primary);
+    border-color: var(--c-primary);
   }
 
   .socials {

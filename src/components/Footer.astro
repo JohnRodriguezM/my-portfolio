@@ -1,25 +1,29 @@
 ---
 const currentYear = new Date().getFullYear();
+const currentMonth = new Date().getMonth();
+const currentDay = new Date().getDate();
 ---
 
 <footer>
-	&copy; {currentYear} John Rodriguez
-	<small class="byline">🚀</small>
+  &copy; {currentYear} / {currentMonth} / 0{currentDay}
+  <br />
+  <br /> John Rodriguez
+  <big class="byline"> 🚀🚀🚀</big>
 </footer>
 <style>
-	footer {
-		text-align: center;
-		padding-top: 8rem;
-		padding-right: 2rem;
-		padding-bottom: 4rem;
-		padding-left: 2rem;
-	}
+  footer {
+    text-align: center;
+    padding-top: 8rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+  }
 
-	.byline {
-		display: block;
-		margin-top: 1rem;
-		color: var(--t-subdue);
-		font-size: var(--f-d2);
-		text-transform: uppercase;
-	}
+  .byline {
+    display: block;
+    margin-top: 1rem;
+    color: var(--t-subdue);
+    font-size: var(--f-u5);
+    text-transform: uppercase;
+  }
 </style>
