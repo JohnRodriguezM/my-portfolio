@@ -55,6 +55,7 @@
 }
 
 body {
+	user-select: none;
 	margin: 0;
 	color: var(--t-fg);
 	font-family: 'Inter', 'system-ui', sans-serif;
